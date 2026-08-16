@@ -17,7 +17,7 @@ Player Spotlight – Featuring Khvicha Kvaratskhelia
 Contact Form – Allows users to submit information through the website
 
 HTML Elements Used (25+):
-<!DOCTYPE>, <html>, <head>, <title>, <meta>, <body>, <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>, <h1>–<h3>, <p>, <a>, <ul>, <li>, <table>, <tr>, <th>, <td>, <form>, <input>, <textarea>, <button>, <figure>, <figcaption>, <hr>, <strong>
+!DOCTYPE,html,head,title,meta,body,header,nav,main,section,article,aside,footer,h1–h3,p,a,ul,li,table,tr,th,td,form,input,textarea, button,figure,figcaption,hr,strong.
 
 HTML Attributes Used (15+):
 lang, charset, name, content, keywords, author, viewport, title, style, id, href, src, alt, width, height, border, action, method, placeholder, rows, cols, type
@@ -25,28 +25,28 @@ lang, charset, name, content, keywords, author, viewport, title, style, id, href
 Question 2: HTML Elements
 Most challenging elements:
 
-<form> – structuring the inputs and labels correctly
+form – structuring the inputs and labels correctly
 
-<table> – aligning headers and rows correctly for the upcoming fixtures
+table – aligning headers and rows correctly for the upcoming fixtures
 
-<aside> – deciding which additional information was appropriate to place in the sidebar
+aside – deciding which additional information was appropriate to place in the sidebar
 
-<figure> and <figcaption> – applying semantic HTML correctly to the player spotlight image and its caption
+figure and figcaption – applying semantic HTML correctly to the player spotlight image and its caption
 
-<nav> – organizing the navigation links clearly and logically
+nav – organizing the navigation links clearly and logically
 
 Use of semantic elements:
 
-<header> → site title and navigation
+header → site title and navigation
 
-<section> → grouped content (Latest News, Fixtures, Analysis, Contact)
+section → grouped content (Latest News, Fixtures, Analysis, Contact)
 
-<article> → individual news items, match previews, player spotlight
+article → individual news items, match previews, player spotlight
 
-<footer> → copyright and back-to-top link
+footer → copyright and back-to-top link
 
 Most useful element for layout:
-<section> because it allowed clear division of content by topic.
+section because it allowed clear division of content by topic.
 
 Question 3: HTML Attributes
 Three essential attributes:
@@ -75,9 +75,9 @@ Opened HTML in browser → used Inspect tool → validated with W3C Validator.
 
 Challenges and Solutions:
 
-Long analysis text → solved by breaking into short <p> blocks with bold highlights
+Long analysis text → solved by breaking into short p blocks with bold highlights
 
-Match results formatting → solved by using <ul> for clarity
+Match results formatting → solved by using ul for clarity
 
 Question 5: Git & GitHub Implementation
 Git commands used:
