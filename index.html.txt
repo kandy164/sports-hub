@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sports News and Analysis Website">
+    <meta name="keywords" content="football, sports, news, analysis, fixtures">
+    <meta name="author" content="Emmanuel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Hub</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="top" style="background-color:lightblue; text-align:center;">
+        <h1>⚽ Sports Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#latest">Latest News</a></li>
+                <li><a href="#fixtures">Fixtures</a></li>
+                <li><a href="#analysis">Analysis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Latest News Section -->
+        <section id="latest">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Transfer Updates</h3>
+                <p><strong>Breaking:</strong> Star striker Ferran Torres moves to Paris Saint-Germain after scoring in the World Cup final.</p>
+            </article>
+            <article>
+                <h3>Match Results</h3>
+                <p>Yesterday’s derby ended in a thrilling 2-2 draw. Here are more results:</p>
+                <ul>
+                    <li>Middlesbrough vs Lincoln City — 2–1</li>
+                    <li>Bristol City vs Millwall — 0–2</li>
+                    <li>Norwich City vs West Brom — 1–2</li>
+                    <li>Stoke City vs Swansea City — 1–2</li>
+                    <li>Charlton vs Derby County — 2–1</li>
+                    <li>QPR vs Portsmouth — 3–1</li>
+                    <li>Bolton vs Preston — 2–1</li>
+                    <li>Reading vs Luton — 3–4</li>
+                    <li>Leicester City vs Notts County — 1–1</li>
+                    <li>Kaizer Chiefs vs Mamelodi Sundowns — 1–1</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Fixtures Section -->
+        <section id="fixtures">
+            <h2>Upcoming Fixtures</h2>
+            <table border="1" style="width:70%;">
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Venue</th>
+                </tr>
+                <tr>
+                    <td>16 Aug 2026</td>
+                    <td>Manchester City vs Arsenal</td>
+                    <td>Principality Stadium, Cardiff, Wales</td>
+                </tr>
+                <tr>
+                    <td>16 Aug 2026</td>
+                    <td>Paris Saint-Germain vs RC Lens</td>
+                    <td>Stade Bollaert-Delelis</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Analysis Section -->
+        <section id="analysis">
+            <h2>Match Analysis</h2>
+            <article>
+                <h3>⚽ Lens 🆚 PSG — Trophée des Champions</h3>
+                <p><strong>Date:</strong> 16 Aug 2026</p>
+                <p><strong>Win Probability:</strong> Lens 30.5% | Draw 22.2% | PSG 47.2%</p>
+                <p><strong>Recent Form:</strong> Lens (L-D-W-D-W-W) — 2-match winning streak. PSG coming off a 2–1 UEFA Super Cup victory over Aston Villa.</p>
+                <p><strong>Head-to-Head:</strong> PSG have won the last 5 meetings. Last result: Lens 0–2 PSG (May 13, 2026).</p>
+                <p><strong>Goal Trends:</strong> BTTS 65.8% | Over 1.5 85.1% | Over 2.5 65.7% | PSG to score 80.1%</p>
+                <p><strong>Verdict:</strong> Lens strong at home, but PSG’s dominance gives them the edge.</p>
+                <p><strong>Prediction:</strong> PSG Win | Correct Score: 1–2 | Confidence: 7/10</p>
+            </article>
+
+            <article>
+                <h3>⭐ Player Spotlight</h3>
+                <figure>
+                    <img src="player.jpg" alt="Khvicha Kvaratskhelia" width="200" height="200">
+                    <figcaption>Khvicha Kvaratskhelia 🇬🇪</figcaption>
+                </figure>
+                <p>Kvaratskhelia scored PSG’s opener in their 2–1 Super Cup victory. His dribbling and creativity in tight spaces make him a key attacking threat.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="5" cols="30" placeholder="Share your thoughts"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sports Hub | <a href="#top">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
